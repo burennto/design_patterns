@@ -1,6 +1,8 @@
+$LOAD_PATH << File.dirname(__FILE__)
+
 require 'fried'
 require 'scrambled'
-require 'Poached'
+require 'poached'
 
 Fried.new.make
 
